@@ -1,3 +1,114 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+  font-family: "Poppins", sans-serif;
+}
+@media only screen and (max-width:1024px) {
+    .logo{
+        display: none !important;
+    }
+    .navbar-middle{
+        margin-right: 200px;
+    }  
+}
+
+@media only screen and (max-width:768px) {
+    .logo{
+        display: none !important;
+    }
+    .navbar-middle{
+        display: none !important;;
+    }
+}
+
+.navbar-left {
+  height: 5rem;
+  display: flex;
+}
+
+.logo {
+  width: 150px;
+  object-fit: contain;
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid rgb(160, 158, 158);
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-middle {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.navbar-right-signup {
+  display: flex;
+  padding: 6px;
+  padding-left: 10px;
+  border: 1px solid rgb(160, 158, 158);
+  border-radius: 20px;
+  background-color: #ff385c;
+  color: white;
+  box-shadow: 2px 2px 10px 2px rgb(160, 158, 158);
+  cursor: pointer;
+}
+.navbar-right-signup:hover{
+    background-color: #000000;
+    transition: 1s ;
+}
+.navbar-right-signup:not(hover){
+    background-color: #ff385c;
+    transition: 1s ;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.navbar-middle-left {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+}
+
+.search-box {
+  border: #fff;
+  border-radius: 9999px;
+  width: 400px;
+  height: 50px;
+  padding: 5px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+
+.navbar-middle-left button {
+  font-size: 17px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #ff385c;
+  border-radius: 9999px;
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    margin-right:20px ;
+    font-size: 17px;
+}
