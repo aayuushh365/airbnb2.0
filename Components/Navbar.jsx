@@ -38,7 +38,6 @@ const Navbar = () => {
       </div>
 
       {/*  Right */}
-
       <div className="navbar-right" style={{ marginRight: "50px" }}>
         <p style={{ paddingBottom: "2px", fontWeight: "600" }}>
           Airbnb Your Home
@@ -47,6 +46,7 @@ const Navbar = () => {
           <BiWorld
             size={"22px"}
             style={{
+              cursor: "pointer",
               paddingLeft: "10px",
               paddingRight: "10px",
               paddingTop: "1px",

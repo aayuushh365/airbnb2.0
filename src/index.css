@@ -27,6 +27,7 @@
 .logo {
   width: 150px;
   object-fit: contain;
+  /* margin-left: 3.5rem; */
 }
 
 .navbar {
@@ -65,7 +66,7 @@
 .navbar-right {
   display: flex;
   align-items: center;
-  padding-right: 1rem;
+  /* padding-right: 2rem; */
 }
 
 .navbar-middle-left {
