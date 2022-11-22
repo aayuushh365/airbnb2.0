@@ -10,20 +10,25 @@ import Filter from './Filter';
 
 const Filters = () => {
   const sorting = [
-    {title: "New" , icon: <BsKeyFill />},
-    {title: "Top of the World" , icon: <TbMountain />},
-    {title: "Trending" , icon: <FaFireAlt />},
-    {title: "Adapted" , icon: <FaWheelchair />},
-    {title: "Play" , icon: <MdSportsCricket />},
-    {title: "Hanoks" , icon: <BsHouseFill />},
-  ]
+    { title: "New", icon: <BsKeyFill size={30} /> },
+    { title: "Top of the World", icon: <TbMountain size={30} /> },
+    { title: "Trending", icon: <FaFireAlt size={30} /> },
+    { title: "Adapted", icon: <FaWheelchair size={30} /> },
+    { title: "Play", icon: <MdSportsCricket size={30} /> },
+    { title: "Hanoks", icon: <BsHouseFill size={30} /> },
+    { title: "New", icon: <BsKeyFill size={30} /> },
+    { title: "Top of the World", icon: <TbMountain size={30} /> },
+    { title: "Trending", icon: <FaFireAlt size={30} /> },
+    { title: "Adapted", icon: <FaWheelchair size={30} /> },
+    { title: "Play", icon: <MdSportsCricket size={30} /> },
+    { title: "Hanoks", icon: <BsHouseFill size={30} /> },
+  ];
   return (
-    <div>
-      <div className="filters">
+    <div className="filters">
+      <div className="filter-box" >
         {sorting.map((item) => (
-          <Filter title={item.title}
-            icon={item.icon}
-          />
+          <Filter title={item.title} 
+          icon={item.icon} />
         ))}
       </div>
     </div>
