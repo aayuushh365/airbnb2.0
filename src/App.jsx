@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Filters from '../Components/Filters'
+import Rentals from '../Components/Rentals'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       {/* Filters */}
       <Filters />
       {/* Rentals */}
+      <Rentals />
       {/* Footer */}
     </div>
   )
