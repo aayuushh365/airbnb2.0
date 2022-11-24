@@ -142,10 +142,17 @@
 .card-title{
   position: absolute;
     font-size: 20px;
-    font-weight:  600;
-    color: black;
+    font-weight: 600;
+    color: #ff385c;
     margin-top: 10px;
     margin-bottom: 10px;
+    /* bottom: 0; */
+   /* position: absolute; 
+    font-size: 20px;
+    font-weight:  600;
+    color: black; */
+    /* margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 10px;  */
 }

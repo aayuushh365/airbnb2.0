@@ -118,8 +118,8 @@ const Rentals = () => {
     <div
       style={{
         paddingTop: "15px",
-        display: "grid",
-        gridTemplateColumns: "repeat(1, minmax(0, 1fr))",
+        // display: "grid",
+        // gridTemplateColumns: "repeat(1, minmax(0, 1fr))",
       }}
     >
       <div className="">
